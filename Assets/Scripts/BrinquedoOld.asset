@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: BrinquedoOld
+  m_EditorClassIdentifier: Assembly-CSharp::NewEra
+  frontCardSprite: {fileID: 21300000, guid: fef50f8f61282744c9d61a14c8c337a4, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 5dd812aebfbadfb4d981df27815481f3, type: 3}
+  description: "Esse lindo beb\xEA cresceu com o passar dos anos. Agora, em seu anivers\xE1rio
+    de 4 anos, ela est\xE1 em uma loja de brinquedos com seus pais. Decida o que voc\xEA
+    quer:"
+  increaseOption: Boneca de pano
+  decreaseOption: "Pe\xE3o"
+  increaseValue: 250
+  decreaseValue: -50

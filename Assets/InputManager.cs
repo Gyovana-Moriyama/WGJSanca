@@ -1,11 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using TMPro;
 public class InputManager : MonoBehaviour {
 
     private bool draggingItem = false;
     private GameObject draggedObject;
     private Vector2 touchOffset;
+    
+    public TextMeshProUGUI TincreaseOption;
+    public TextMeshProUGUI TdecreaseOption;
+   
+    void Awake()
+    {
+        TincreaseOption.enabled = false;
+        TdecreaseOption.enabled = false;
+    }
 
     void Update() {
         if (HasInput) {
@@ -33,8 +42,20 @@ public class InputManager : MonoBehaviour {
             float rotation = inputPosition.x * -10;
             if(rotation > -15 && rotation < 15)
                 draggedObject.transform.rotation = Quaternion.Euler(0, 0, rotation);
+                if(rotation > 0)
+                {
+                    TincreaseOption.enabled = false;
+                    TdecreaseOption.enabled = true;
+                }
+                else if(rotation < 0)
+                {
+                    TincreaseOption.enabled = true;
+                    TdecreaseOption.enabled = false;
+                }
         }
         else {
+            TincreaseOption.enabled = false;
+            TdecreaseOption.enabled = false;
             RaycastHit2D[] touches = Physics2D.RaycastAll(inputPosition, inputPosition, 0.5f);
             if (touches.Length > 0) {
                 var hit = touches[0];
@@ -56,13 +77,16 @@ public class InputManager : MonoBehaviour {
     int DropItem() {
         // Right
         if (draggedObject.transform.rotation.z < -0.10f) {
+          
             return 1;
         }
         // Left
         if (draggedObject.transform.rotation.z > 0.10f) {
+            
             return -1;
         }
-
+        TincreaseOption.enabled = false;
+        TdecreaseOption.enabled = false;
         draggedObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         draggingItem = false;
         return 0;

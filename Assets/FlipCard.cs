@@ -5,8 +5,12 @@ using UnityEngine;
 public class FlipCard : MonoBehaviour {
 
     public Sprite front;
-    private bool flipped = false;
-
+    public bool flipped = false;
+    public bool cardDestroy = false;
+    void Awake()
+    { 
+        cardDestroy = false;
+    }
     private void Update() {
         if(!flipped)
            FlipItem();
@@ -24,6 +28,7 @@ public class FlipCard : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        cardDestroy = true;
         Destroy(this.gameObject);
     }
 }
