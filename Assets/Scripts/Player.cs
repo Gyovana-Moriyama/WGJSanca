@@ -7,6 +7,7 @@ using TMPro;
 public class Player : MonoBehaviour 
 {
     public int stats;
+
     public int Stats
     {
         get
@@ -17,7 +18,7 @@ public class Player : MonoBehaviour
         set
         {
             this.stats = value;
-            GetComponent<TextMeshProUGUI>().text = Stats.ToString();
+           // GetComponent<TextMeshProUGUI>().text = Stats.ToString();
             
         }
     }

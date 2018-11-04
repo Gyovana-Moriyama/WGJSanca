@@ -6,6 +6,8 @@ public abstract class Card : ScriptableObject
 {
 	public Sprite frontCardSprite;
 	public Sprite backCardSprite;
+	private SpriteRenderer spriteRenderer;
+	
 	public string description;
 	public string increaseOption;
 	public string decreaseOption;
