@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: CardObject
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 0}
+  backCardSprite: {fileID: 0}
+  increaseText: 
+  decreaseText: 
+  description: 
+  increaseOption: 
+  decreaseOption: 
+  increaseValue: 0
+  decreaseValue: 0
+  isAnswer: 0

@@ -7,6 +7,7 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI Tdescription;
     public TextMeshProUGUI TincreaseOption;
     public TextMeshProUGUI TdecreaseOption;
+    public Image cardD;
     [SerializeField] private bool flipped = false;
     [SerializeField]private bool cardDestroy = false;
     [SerializeField] private bool points;
@@ -88,7 +89,7 @@ public class CardDisplay : MonoBehaviour
     void FlipItem() {
         float speed = Time.deltaTime * 300f;
         if (this.transform.rotation.eulerAngles.y > 90)  
-            this.GetComponent<SpriteRenderer>().sprite = card[i].frontCardSprite;
+            cardD.sprite = card[i].frontCardSprite;
 
         if (this.transform.rotation.eulerAngles.y < 180)
             this.transform.Rotate(0, speed, 0);
