@@ -4,7 +4,6 @@ using UnityEngine;
 
 public abstract class Card : ScriptableObject 
 {
-	public SpriteRenderer sprite;
 	public string description;
 	public string increaseOption;
 	public string decreaseOption;

@@ -18,4 +18,4 @@ public class ChangeStats : MonoBehaviour
         textMPro.text = player.Stats.ToString();
     }
     
-}
+}  

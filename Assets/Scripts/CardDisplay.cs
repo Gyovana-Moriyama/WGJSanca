@@ -9,12 +9,9 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI TdecreaseOption;
 
     private void Start() 
-    {
-        Tdescription = GetComponent<TextMeshProUGUI>();
+    {  
         Tdescription.text = card.description;
-        TincreaseOption = GetComponent<TextMeshProUGUI>();
         TincreaseOption.text = card.increaseOption;
-        TdecreaseOption = GetComponent<TextMeshProUGUI>();
         TdecreaseOption.text = card.decreaseOption;
     }
 }
