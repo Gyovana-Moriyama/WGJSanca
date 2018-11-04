@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: BrinquedoOld
+  m_Name: CardObject
   m_EditorClassIdentifier: Assembly-CSharp::NewEra
   frontCardSprite: {fileID: 0}
   backCardSprite: {fileID: 0}
