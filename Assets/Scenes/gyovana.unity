@@ -1041,8 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   card:
-  - {fileID: 11400000, guid: 28ea4728e8ae56642ae338c1a1adf163, type: 2}
-  - {fileID: 11400000, guid: fd9d08d392dd9b74b8a4793c3a1041e9, type: 2}
+  - {fileID: 0}
   Tdescription: {fileID: 1692545515}
   TincreaseOption: {fileID: 1392002049}
   TdecreaseOption: {fileID: 1830011274}
