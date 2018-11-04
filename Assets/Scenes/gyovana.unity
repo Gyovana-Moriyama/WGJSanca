@@ -169,6 +169,7 @@ MonoBehaviour:
   side: 0
   TincreaseOption: {fileID: 1392002049}
   TdecreaseOption: {fileID: 1830011274}
+  background: {fileID: 1598293260}
 --- !u!1 &707150726
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,12 +530,12 @@ RectTransform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 2023576149}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.6045391}
   m_AnchorMax: {x: 1, y: 0.6045391}
-  m_AnchoredPosition: {x: 5.11, y: 6.25}
-  m_SizeDelta: {x: 38, y: 19}
+  m_AnchoredPosition: {x: 2.149, y: 5.41}
+  m_SizeDelta: {x: 44.61, y: 20}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1392002048
 CanvasRenderer:
@@ -596,7 +597,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 260
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -656,6 +657,75 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1598293258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598293259}
+  - component: {fileID: 1598293261}
+  - component: {fileID: 1598293260}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1598293259
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598293258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2023576149}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.036, y: 4.4}
+  m_SizeDelta: {x: 9.223, y: 2.389}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1598293260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598293258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0.56078434}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 1c1381cdff26dea448969e64bf020c53, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1598293261
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598293258}
+  m_CullTransparentMesh: 0
 --- !u!1 &1692545513
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +951,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 260
+  m_textAlignment: 257
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -959,12 +1029,12 @@ RectTransform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 2023576149}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.6045391}
   m_AnchorMax: {x: 0, y: 0.6045391}
-  m_AnchoredPosition: {x: -5.3, y: 6.16}
-  m_SizeDelta: {x: 38, y: 19}
+  m_AnchoredPosition: {x: -2.149, y: 5.41}
+  m_SizeDelta: {x: 44.61, y: 20}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2023576146
 GameObject:
@@ -1043,6 +1113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card:
   - {fileID: 0}
+  - {fileID: 0}
   Tdescription: {fileID: 1692545515}
   TincreaseOption: {fileID: 1392002049}
   TdecreaseOption: {fileID: 1830011274}
@@ -1060,6 +1131,7 @@ Transform:
   m_LocalPosition: {x: 0.05, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1598293259}
   - {fileID: 1392002047}
   - {fileID: 1830011276}
   m_Father: {fileID: 1328288174}
