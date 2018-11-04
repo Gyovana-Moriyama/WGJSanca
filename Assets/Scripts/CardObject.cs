@@ -1,15 +1,18 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "OldEra", menuName = "WGJSanca/OldEra", order = 0)]
-public class OldEra : Card
+
+[CreateAssetMenu(fileName = "CardObject", menuName = "WGJSanca/CardObject", order = 0)]
+public class NewEra : Card 
 {
     Player player;
-    
+
+   
     void Awake()
     {
-       player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-    }
-    
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        
+    }   
+
     public override void Points(string option)
     {
         if(option == increaseOption)
@@ -20,5 +23,9 @@ public class OldEra : Card
         {
             player.Stats -= decreaseValue;
         }
-    }
+    } 
+
+    
+
+
 }
