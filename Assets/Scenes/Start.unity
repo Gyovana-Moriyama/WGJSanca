@@ -1934,9 +1934,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Assuma o papel de uma pessoa na sociedade antiga ou moderna e fa\xE7a as
-    escolhas vida, deslizando seus dedos para a esquerda ou para a direita, para mostrar
-    sua vontade \xE0 sociedade. Cada decis\xE3o que voc\xEA toma pode ter implica\xE7\xF5es
+  m_Text: "Assuma o papel de uma pessoa na Velha Era ou na Nova Era e fa\xE7a as escolhas
+    vida, deslizando seus dedos para a esquerda ou para a direita, para mostrar sua
+    vontade \xE0 sociedade. Cada decis\xE3o que voc\xEA toma pode ter implica\xE7\xF5es
     e consequ\xEAncias no futuro!"
 --- !u!222 &1642470767
 CanvasRenderer:
