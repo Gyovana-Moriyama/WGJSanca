@@ -1,0 +1,147 @@
+[33mcommit c94dab8c5957f576190c3bddc53d433bdcc7e9a0[m[33m ([m[1;36mHEAD -> [m[1;32mfabi[m[33m, [m[1;31morigin/fabi[m[33m)[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 15:42:56 2018 -0200
+
+    Credits
+
+[33mcommit f6bb938cbefb8812b1fe5d5d5843a7c9044827d3[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 15:29:29 2018 -0200
+
+    Background for option text
+
+[33mcommit f921b62bd8879336ca65b09ebd397e65a24138cb[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 14:04:35 2018 -0200
+
+    New arts
+
+[33mcommit a66711088f9b391cd5f8049746b1d81a4b278098[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 13:31:52 2018 -0200
+
+    New Arts
+
+[33mcommit 3d6917ff1c621dd5f5ed78f4c28470ba4523f312[m
+Merge: 5c366ca 4ed9e77
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sun Nov 4 13:01:43 2018 -0200
+
+    conflicts resolved
+
+[33mcommit 5c366cad853b8260ca6d31039a860f6737945d1b[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sun Nov 4 12:48:44 2018 -0200
+
+    Cards
+
+[33mcommit 4ed9e7793e62d7f98b30d5e0a3c6bd58219b9db8[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 12:34:25 2018 -0200
+
+    Menu
+
+[33mcommit 4b001e4fbd055191baaddbafd57cf59e27239684[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 12:18:22 2018 -0200
+
+    Menu
+
+[33mcommit 77e2176c144ae2057b4b1f88d7a8d0ef9795751c[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 11:51:39 2018 -0200
+
+    Menu
+
+[33mcommit d4df655bb47af853d247d5d6834f5ad62b3d362f[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 03:10:48 2018 -0200
+
+    Menu
+
+[33mcommit 5f8af315abca6d49c7ce8bd3791bbb7d15295d89[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 02:44:21 2018 -0200
+
+    Menu
+
+[33mcommit aae1dea9a11d54450f35bd74c52fb1a70e8c766d[m
+Merge: e780594 5f547cb
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sun Nov 4 01:55:10 2018 -0200
+
+    Merge remote-tracking branch 'origin/fabi' into gyovana
+
+[33mcommit 5f547cb8e66588cbb08ee8ce33d85abde1291b65[m
+Merge: 867bc36 e1e443b
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 01:52:08 2018 -0200
+
+    Merge remote-tracking branch 'origin/gyovana' into fabi
+
+[33mcommit e7805943c98884121a8dc85093dcb82dfb8479fb[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sun Nov 4 01:50:25 2018 -0200
+
+    Downloaded TextMeshPro
+
+[33mcommit 867bc361d6762276c48a972d1abe80b0e448db40[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sun Nov 4 01:48:13 2018 -0200
+
+    Destroy card object
+
+[33mcommit ed4ef47aaf85a8e88c0b1578246b2f61d0241b50[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sat Nov 3 23:49:29 2018 -0300
+
+    Flip card
+
+[33mcommit 0cb87d696297810efec01c2eb6074bd8e025df99[m
+Merge: a6af6b6 c96f735
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 23:26:54 2018 -0300
+
+    Merge remote-tracking branch 'origin/fabi' into gyovana
+
+[33mcommit a6af6b670463acb9bc58ad9a02e902a28f98b8c7[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 23:25:28 2018 -0300
+
+    Cards objects improved
+
+[33mcommit c96f735e9878a7d1ce649f27377f72f59117274f[m
+Author: Fabiana Dalacqua <fabiana.dalacqua@gmail.com>
+Date:   Sat Nov 3 23:23:34 2018 -0300
+
+    Drag and Drop card
+
+[33mcommit 1b51643412821cf75ada2ccd8600540babf19130[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 18:40:46 2018 -0300
+
+    Cards Scriptable Objects
+
+[33mcommit e1e443b018025eadf6652b3697e318030f0af108[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 12:11:18 2018 -0300
+
+    Create folders
+
+[33mcommit 443e1ca8a1a4d26544c9c2301d3ea09bdb379894[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 12:01:15 2018 -0300
+
+    .vscode in .gitignore
+
+[33mcommit b2f8263535195c78e3c5e8488d84d53ac836b562[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 11:54:34 2018 -0300
+
+    Remove .vscode
+
+[33mcommit 292523bc674585f9732bd332ab7816bf22d3f5f8[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Gyovana Moriyama <gymori@usp.br>
+Date:   Sat Nov 3 11:40:13 2018 -0300
+
+    First commit

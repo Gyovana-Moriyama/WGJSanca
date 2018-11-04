@@ -6,16 +6,16 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: BebeOld
+  m_Name: CardObject 1
   m_EditorClassIdentifier: Assembly-CSharp::NewEra
-  frontCardSprite: {fileID: 21300000, guid: aa0b025b9c14f8748bb0535506100e70, type: 3}
-  backCardSprite: {fileID: 21300000, guid: 5dd812aebfbadfb4d981df27815481f3, type: 3}
+  frontCardSprite: {fileID: 21300000, guid: 6bde35d0f3c7c764e9eaa324ccc49dd2, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 69139d221c42e2a4393eca36ae1ca47b, type: 3}
   description: "Rec\xE9m-casados e felizes, esse casal decide ter um beb\xEA. Fa\xE7a
-    sua escolha"
-  increaseOption: Menino
-  decreaseOption: Menina
-  increaseValue: 1000
-  decreaseValue: -1000
+    sua escolha:"
+  increaseOption: Menina
+  decreaseOption: Menino
+  increaseValue: 0
+  decreaseValue: 0

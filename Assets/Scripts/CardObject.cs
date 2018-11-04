@@ -17,11 +17,17 @@ public class NewEra : Card
     {
         if(option == increaseOption)
         {
+            Debug.Log(option);
+            Debug.Log(increaseOption);
+             Debug.Log("before " + player.Stats);
             player.Stats += increaseValue;
+            Debug.Log("after "+player.Stats);
         }
         else if(option == decreaseOption)
         {
-            player.Stats -= decreaseValue;
+             Debug.Log(option);
+            Debug.Log(decreaseOption);
+            player.Stats += decreaseValue;
         }
     } 
 
