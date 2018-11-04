@@ -268,8 +268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.05}
-  m_SizeDelta: {x: 125.6, y: 218.1}
+  m_AnchoredPosition: {x: -0.0000019073, y: 7.175}
+  m_SizeDelta: {x: 147.9, y: 234.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169110153
 MonoBehaviour:
@@ -292,18 +292,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: bab3c93b04621e24db9290f454d93e6c, type: 3}
-    m_FontSize: 14
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 18
+    m_MinSize: 1
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\nPrograma\xE7\xE3o\nFabiana\nGyovana\n\nArte\nAnay\xE3\nRafaela\nRenata"
+  m_Text: "Programa\xE7\xE3o\r\nFabiana Dalacqua Mendes\r\nGyovana Mayara Moriyama\r\n\nArte\r\nAnay\xE3
+    Gimenes Ferreira\r\nRenata Vinhaga dos Anjos\r\n\r\nEscritora\r\nRafaela Cristine
+    Storino"
 --- !u!222 &169110154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1522,8 +1524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: 123}
-  m_SizeDelta: {x: 125.6, y: 30}
+  m_AnchoredPosition: {x: 0.0000038147, y: 135}
+  m_SizeDelta: {x: 125.6, y: 25.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347613141
 MonoBehaviour:
@@ -1597,8 +1599,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: 123}
-  m_SizeDelta: {x: 125.6, y: 30}
+  m_AnchoredPosition: {x: -0.0000038147, y: 137}
+  m_SizeDelta: {x: 125.6, y: 25.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1386239219
 MonoBehaviour:
@@ -1899,8 +1901,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.05}
-  m_SizeDelta: {x: 125.6, y: 218.1}
+  m_AnchoredPosition: {x: -0.1, y: 6.175}
+  m_SizeDelta: {x: 150.2, y: 232.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642470766
 MonoBehaviour:
