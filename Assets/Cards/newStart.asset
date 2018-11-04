@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: newStart
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: 80d1a6ceaaec07349aa859741000dc02, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 679d506031bac964e9ea0fc7895ec152, type: 3}
+  increaseText: 
+  decreaseText: 
+  description: "Desde o casamento, voc\xEA teve um filho atr\xE1s do outro, mas finalmente,
+    na terceira gravidez... Voc\xEA teve sua primeira filha! Parab\xE9ns! Aplaudimos
+    seus esfor\xE7os para construir uma enorme e tradicional fam\xEDlia, aos seus
+    18 anos de idade. Ap\xF3s o nascimento de sua linda menininha, como voc\xEA pensa
+    em cri\xE1-la? "
+  increaseOption: Do jeito que me ensinaram a vida toda
+  decreaseOption: Do jeito que eu sempre quis ser, mas nunca tive a oportunidade
+  increaseValue: 5000
+  decreaseValue: -1750
+  isAnswer: 0

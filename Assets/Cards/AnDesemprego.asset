@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: AnDesemprego
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: 5f3c8ca9608967f40b8bfeec07af4a66, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 679d506031bac964e9ea0fc7895ec152, type: 3}
+  increaseText: "\u201CMuito bom. Voc\xEA est\xE1 fazendo o seu papel designado pela
+    sociedade e cumprindo com o dever marital de ficar ao lado de seu c\xF4njuge,
+    apoiando-o em tempos dif\xEDceis :3"
+  decreaseText: "O que \xE9 que voc\xEA tem na cabe\xE7a?! Voc\xEA acabou de destruir
+    \xFAltimo pingo de orgulho que seu esposo tinha como respons\xE1vel de sustentar
+    a mulher e manter a casa. Esque\xE7a :P"
+  description: 
+  increaseOption: Continue
+  decreaseOption: Continue
+  increaseValue: 0
+  decreaseValue: 0
+  isAnswer: 1

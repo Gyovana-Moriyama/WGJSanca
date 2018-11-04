@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: AnnewStart
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: 5f3c8ca9608967f40b8bfeec07af4a66, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 679d506031bac964e9ea0fc7895ec152, type: 3}
+  increaseText: "Parece que voc\xEA \xE9 uma pessoa bitolada. Todos sabem que as tradi\xE7\xF5es
+    devem ser mantidas e que a melhor ocupa\xE7\xE3o para uma mulher \xE9 servir de
+    prendas dom\xE9sticas uwu "
+  decreaseText: "Pois bem, voc\xEA parece ser uma pessoa desajeitada se acredita que
+    sua filha pode seguir um caminho diferente do seu, e de todas as outras mulheres.
+    D\xE1 zero negativo pra ela XP "
+  description: 
+  increaseOption: Continue
+  decreaseOption: Continue
+  increaseValue: 0
+  decreaseValue: 0
+  isAnswer: 1

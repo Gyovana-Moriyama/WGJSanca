@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: Roupas
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: 321547db378ff9443bf7d735d3123a6d, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 679d506031bac964e9ea0fc7895ec152, type: 3}
+  increaseText: 
+  decreaseText: 
+  description: "Voc\xEA, minha jovem garota, est\xE1 na idade de se tornar uma mo\xE7a
+    prendada. Como seus pais j\xE1 lhe arrumaram um pretendente, voc\xEA, agora com
+    13 anos de idade, deve escolher uma roupa para o jantar entre as fam\xEDlias.
+    Seja sensata em sua decis\xE3o:"
+  increaseOption: Um belo vestido modesto
+  decreaseOption: "Camisa e cal\xE7a confort\xE1veis"
+  increaseValue: 2500
+  decreaseValue: -5000
+  isAnswer: 0

@@ -12,8 +12,8 @@ public class CardDisplay : MonoBehaviour
     [SerializeField] private bool points;
 
     [SerializeField]InputManager inputManager;
-  
-    int i = 0;
+    int textOption;
+   public int i = 0;
    
 
     void Awake()
@@ -24,6 +24,7 @@ public class CardDisplay : MonoBehaviour
         Tdescription.text = card[i].description;
         TincreaseOption.text = card[i].increaseOption;
         TdecreaseOption.text = card[i].decreaseOption;
+        
     }
     private void Update()
     {
@@ -31,14 +32,34 @@ public class CardDisplay : MonoBehaviour
          {
             FlipItem();
          }
-        if (cardDestroy == true && i + 1 < card.Length )
+        if (cardDestroy == true && points == false && i + 1 < card.Length )
         {
             i++;
             flipped = false;
             cardDestroy = false;
-            Tdescription.text = card[i].description;
-            TincreaseOption.text = card[i].increaseOption;
-            TdecreaseOption.text = card[i].decreaseOption;
+
+                if(card[i].isAnswer == true)
+                {
+                    if(textOption == 1)
+                    {
+                        Tdescription.text = card[i].increaseText;
+                        TincreaseOption.text = card[i].increaseOption;
+                        TdecreaseOption.text = card[i].decreaseOption;
+                    }
+                    else if(textOption == -1)
+                    {
+                        Tdescription.text = card[i].decreaseText;
+                        TincreaseOption.text = card[i].increaseOption;
+                        TdecreaseOption.text = card[i].decreaseOption;
+                    }
+                }
+                else
+                {
+                    Tdescription.text = card[i].description;
+                    TincreaseOption.text = card[i].increaseOption;
+                    TdecreaseOption.text = card[i].decreaseOption;  
+
+                }
            
         }
 
@@ -46,7 +67,7 @@ public class CardDisplay : MonoBehaviour
         {
             if(points == false)
             {
-                 card[i].Points(card[i].increaseOption);
+                textOption = card[i].Points(card[i].increaseOption);
                 points = true;
             }
             cardDestroy = true;  
@@ -56,7 +77,7 @@ public class CardDisplay : MonoBehaviour
         {
             if(points == false)
             {
-                 card[i].Points(card[i].decreaseOption);
+                textOption = card[i].Points(card[i].decreaseOption);
                 points = true;
             }
             cardDestroy = true;

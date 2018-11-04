@@ -8,6 +8,11 @@ public class Player : MonoBehaviour
 {
     public int stats;
 
+   
+    void Awake()
+    {
+        Stats += 0;
+    }
     public int Stats
     {
         get
