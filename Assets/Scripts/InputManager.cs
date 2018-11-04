@@ -10,11 +10,13 @@ public class InputManager : MonoBehaviour
     public int side;
     public TextMeshProUGUI TincreaseOption;
     public TextMeshProUGUI TdecreaseOption;
+    public Image background;
 
     void Awake()
     {
         TincreaseOption.enabled = false;
         TdecreaseOption.enabled = false;
+        background.enabled = false;
     }
 
     void Update()
@@ -55,11 +57,13 @@ public class InputManager : MonoBehaviour
             {
                 TincreaseOption.enabled = false;
                 TdecreaseOption.enabled = true;
+                background.enabled = true;
             }
             else if (rotation < 0)
             {
                 TincreaseOption.enabled = true;
                 TdecreaseOption.enabled = false;
+                background.enabled = true;
             }
         }
         else
@@ -98,6 +102,7 @@ public class InputManager : MonoBehaviour
             Debug.Log("entrou no if < -0.1");
             TincreaseOption.enabled = false;
             TdecreaseOption.enabled = false;
+            background.enabled = false;
             draggedObject.transform.rotation = Quaternion.Euler(0, 0, 0);
             draggingItem = false;
             return 1;
@@ -108,6 +113,7 @@ public class InputManager : MonoBehaviour
              Debug.Log("entrou no if < -0.1");
             TincreaseOption.enabled = false;
             TdecreaseOption.enabled = false;
+            background.enabled = false;
             draggedObject.transform.rotation = Quaternion.Euler(0, 0, 0);
             draggingItem = false;
             return -1;

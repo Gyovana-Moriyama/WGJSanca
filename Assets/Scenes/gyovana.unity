@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c713a65830950704283c5ee5664ec515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  side: 0
   TincreaseOption: {fileID: 1392002049}
   TdecreaseOption: {fileID: 1830011274}
 --- !u!1 &707150726
@@ -570,8 +571,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -855,8 +856,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -1047,6 +1048,8 @@ MonoBehaviour:
   TdecreaseOption: {fileID: 1830011274}
   flipped: 0
   cardDestroy: 0
+  points: 0
+  inputManager: {fileID: 0}
 --- !u!4 &2023576149
 Transform:
   m_ObjectHideFlags: 0

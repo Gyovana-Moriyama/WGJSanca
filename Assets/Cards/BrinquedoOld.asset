@@ -6,10 +6,10 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: CardObject
+  m_Name: BrinquedoOld
   m_EditorClassIdentifier: Assembly-CSharp::NewEra
   frontCardSprite: {fileID: 0}
   backCardSprite: {fileID: 0}
