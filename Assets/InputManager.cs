@@ -12,7 +12,7 @@ public class InputManager : MonoBehaviour {
             DragOrPickUp();
         }
         else {
-            if (draggingItem) {
+            if (draggingItem && draggedObject != null) {
                 ThrowItem(DropItem());
             }
         }
@@ -30,7 +30,9 @@ public class InputManager : MonoBehaviour {
         var inputPosition = CurrentTouchPosition;
 
         if (draggingItem) {
-            draggedObject.transform.rotation = Quaternion.Euler(0, 0, inputPosition.x*-10);
+            float rotation = inputPosition.x * -10;
+            if(rotation > -15 && rotation < 15)
+                draggedObject.transform.rotation = Quaternion.Euler(0, 0, rotation);
         }
         else {
             RaycastHit2D[] touches = Physics2D.RaycastAll(inputPosition, inputPosition, 0.5f);
@@ -52,7 +54,6 @@ public class InputManager : MonoBehaviour {
     }
 
     int DropItem() {
-        Debug.Log(draggedObject.transform.rotation.z);
         // Right
         if (draggedObject.transform.rotation.z < -0.10f) {
             return 1;
@@ -69,8 +70,8 @@ public class InputManager : MonoBehaviour {
 
     void ThrowItem(int z) {
         if (draggingItem) {
-            float speed = Time.deltaTime * 20f;
-            draggedObject.transform.Translate(z*speed, 0, 0);
+            float speed = Time.deltaTime * 10f;
+            draggedObject.transform.Translate(z * speed, 0, 0);
         }
     }
 }

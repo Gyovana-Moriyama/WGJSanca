@@ -22,4 +22,8 @@ public class FlipCard : MonoBehaviour {
         else
             flipped = true;
     }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        Destroy(this.gameObject);
+    }
 }
