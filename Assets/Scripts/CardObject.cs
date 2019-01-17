@@ -6,13 +6,7 @@ public class CardObject : Card
 {
     Player player;
 
-   
-    void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        
-    }   
-
+ 
     public override int Points(string option)
     {
         if(option == increaseOption)

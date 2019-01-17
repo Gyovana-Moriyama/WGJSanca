@@ -8,13 +8,20 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI TincreaseOption;
     public TextMeshProUGUI TdecreaseOption;
     public Image cardD;
+
+    public string description;
     [SerializeField] private bool flipped = false;
     [SerializeField]private bool cardDestroy = false;
     [SerializeField] private bool points;
 
     [SerializeField]InputManager inputManager;
+
+    [SerializeField] Button next;
+    [SerializeField] Button previous;
+
     int textOption;
    public int i = 0;
+   int j = 0;
    
 
     void Awake()
@@ -22,10 +29,11 @@ public class CardDisplay : MonoBehaviour
         inputManager = GameObject.FindGameObjectWithTag("Player").GetComponent<InputManager>();
         cardDestroy = false;
         points = false;
-        Tdescription.text = card[i].description;
+        Tdescription.text = card[i].descriptions[j];
         TincreaseOption.text = card[i].increaseOption;
         TdecreaseOption.text = card[i].decreaseOption;
-        
+        next.gameObject.SetActive(false);
+        previous.gameObject.SetActive(false);
     }
     private void Update()
     {
@@ -33,6 +41,7 @@ public class CardDisplay : MonoBehaviour
          {
             FlipItem();
          }
+
         if (cardDestroy == true && points == false && i + 1 < card.Length )
         {
             i++;
@@ -56,7 +65,19 @@ public class CardDisplay : MonoBehaviour
                 }
                 else
                 {
-                    Tdescription.text = card[i].description;
+                    
+                    //Tdescription.text = card[i].description;
+                    if(card[i].descriptions.Length > 1)
+                    {
+                        next.gameObject.SetActive(true);
+                        previous.gameObject.SetActive(true);
+
+                    }
+                    else
+                    {
+                        next.gameObject.SetActive(false);
+                        previous.gameObject.SetActive(false);
+                    }
                     TincreaseOption.text = card[i].increaseOption;
                     TdecreaseOption.text = card[i].decreaseOption;  
 
@@ -99,6 +120,33 @@ public class CardDisplay : MonoBehaviour
             flipped = true;
             inputManager.side = 0;
             points = false;
+        }
+    }
+
+    public void NextDescription()
+    {
+        if(card[i].descriptions.Length > 1)
+        {
+            if(j + 1 < card[i].descriptions.Length)
+            {
+                description = card[i].descriptions[j];
+                Tdescription.text = description;
+                j++;
+
+            }
+        }
+    }
+
+    public void PreviousDescription()
+    {
+        if(card[i].descriptions.Length > 1)
+        {
+            if(j >= 0)
+            {
+                description = card[i].descriptions[j];
+                Tdescription.text = description;
+                j--;
+            }
         }
     }
 }

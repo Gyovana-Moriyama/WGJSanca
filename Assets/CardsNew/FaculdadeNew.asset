@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: FaculdadeNew
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: b9bc04d53672b6d439a893acbd477ab4, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 69139d221c42e2a4393eca36ae1ca47b, type: 3}
+  increaseText: 
+  decreaseText: 
+  descriptions:
+  - "Voc\xEA, minha jovem formosa, ainda est\xE1 comemorando sua aprova\xE7\xE3o na
+    melhor universidade do pa\xEDs, e no curso dos seus sonhos, que \xE9 Engenharia
+    de Controle e Automa\xE7\xE3o."
+  - " Por\xE9m, voc\xEA n\xE3o somente \xE9 a \xFAnica aluna do curso em uma sala
+    com 59 homens, como tamb\xE9m \xE9 a \xFAnica mo\xE7a que foi aceita em um est\xE1gio
+    que n\xE3o reflete muito bem o emprego dos seus sonhos, e muito menos lhe pagam
+    um sal\xE1rio que se equipare com o do seu colega de trabalho."
+  - "Seus pais sugerem que voc\xEA mude de curso, e voc\xEA..."
+  increaseOption: "Concorda por achar que n\xE3o deve continuar por ser um curso para
+    homens"
+  decreaseOption: "N\xE3o d\xE1 ouvidos aos seus pais pelos motivos que apontaram"
+  increaseValue: 2000
+  decreaseValue: -1000
+  isAnswer: 0
+  longText: 0

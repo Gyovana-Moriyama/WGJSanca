@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6db73452c39e304ea756c9907c0157b, type: 3}
+  m_Name: AnCasamento
+  m_EditorClassIdentifier: 
+  frontCardSprite: {fileID: 21300000, guid: 1c1381cdff26dea448969e64bf020c53, type: 3}
+  backCardSprite: {fileID: 21300000, guid: 69139d221c42e2a4393eca36ae1ca47b, type: 3}
+  increaseText: "Ah, at\xE9 que enfim! Voc\xEA percebeu que est\xE1 passando da hora
+    de constituir uma fam\xEDlia! Quem sabe voc\xEA n\xE3o acabe tendo uma filha e
+    lhe ensine sobre como lidar com a vida e sair uma vencedora ^.^  "
+  decreaseText: "Minha nossa... Enquanto metade da sociedade pensa que voc\xEA vai
+    ficar pra titia (ainda), a outra metade pensa que voc\xEA pulou pro outro lado
+    do muro (isso quando n\xE3o dizem que coisa boa voc\xEA n\xE3o \xE9...). Fazer
+    o que, n\xE9? >.<s"
+  descriptions: []
+  increaseOption: Continue
+  decreaseOption: Continue
+  increaseValue: 0
+  decreaseValue: 0
+  isAnswer: 1
+  longText: 0
